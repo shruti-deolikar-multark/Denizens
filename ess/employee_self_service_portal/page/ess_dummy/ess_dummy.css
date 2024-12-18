@@ -1,0 +1,241 @@
+.rounded-circle {
+    border-radius: 12px !important;
+}
+
+.employee_name {
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 500;
+    color: #000;
+}
+
+.progress-bar {
+    background-color: #C52083;
+}
+
+.personal_info  {
+    width: 100%;
+}
+
+.personal_info .personal_fields {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "Roboto";
+}
+
+.personal_info .personal_text {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Roboto";
+}
+
+.personal_info .personal_info_right {
+    border-left: 1px solid #452A7C;
+}
+
+.employee_profile {
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    height: 220px;
+}
+
+.employee_profile_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.employee_pending_title {
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 500;
+    color: #000;
+    text-align: center; /* Ensure proper alignment for all screen sizes */
+}
+
+.pending_elements {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+.card-title {
+    margin-bottom: 3.5rem !important;
+}
+
+.pending_elements p {
+    text-align: center; /* Ensures proper text alignment */
+    margin: 0;
+}
+
+.sidebar-list {
+    list-style: none;
+    padding-left: 0%;
+    padding-top: 5%;
+    width: 100%;
+}
+
+.sidebar-list .sidebar_elements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px; /* Add spacing for elements */
+}
+
+.sidebar-list li {
+    text-align: center;
+    margin: 0 auto; /* Center items */
+}
+
+.sidebar-list li a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 50px;
+    text-decoration: none;
+    transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+.sidebar-list li a:hover {
+    text-decoration: none;
+    color: #C52083;
+    background-color: rgba(197, 32, 131, 0.1); /* Add hover background for better UX */
+    border-radius: 5px;
+}
+
+.sidebar-list li a:active {
+    text-decoration: none;
+    color: #C52083;
+}
+
+.sidebar_elements.active i {
+    color: #C52083;
+}
+
+.sidebar-list li a p {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Roboto";
+}
+
+.sidebar-list li a i {
+    font-size: 24px;
+    flex-shrink: 0; /* Prevent icons from shrinking */
+}
+
+.employee_profile_sidebar {
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    min-height: 400px; 
+    margin-bottom: 20px; 
+    display: flex;
+    flex-direction: column; /* Stack content for responsiveness */
+}
+
+/* Adjust sidebar layout for smaller screens */
+.employee_profile_card_sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px; 
+}
+
+.table_style {
+    border: 1px solid #F3F3F3 !important;
+    font-family: "Roboto";
+}
+
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .employee_profile {
+        height: auto; /* Allow flexible height */
+    }
+
+    .sidebar-list li a {
+        padding: 15px;
+        padding-left: 20px;
+        font-size: 16px; /* Smaller font size for compact layout */
+    }
+
+    .sidebar-list li a p {
+        font-size: 16px;
+    }
+
+    .sidebar-list li a i {
+        font-size: 20px;
+    }
+
+    .employee_pending_title {
+        font-size: 20px;
+    }
+
+    .sidebar-list .sidebar_elements {
+        flex-direction: column; /* Stack elements vertically */
+        gap: 5px;
+    }
+}
+
+@media (max-width: 576px) {
+    .sidebar-list {
+        padding-top: 2%;
+    }
+
+    .sidebar-list li a {
+        padding: 10px;
+        padding-left: 15px;
+        font-size: 14px;
+    }
+
+    .sidebar-list li a p {
+        font-size: 14px;
+    }
+
+    .sidebar-list li a i {
+        font-size: 18px;
+    }
+
+    .employee_pending_title {
+        font-size: 18px;
+    }
+}
+
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+    .personal_info {
+        flex-direction: column;
+    }
+
+    .employee_info {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .personal_fields,
+    .personal_text {
+        font-size: 14px;
+    }
+
+    .employee_info {
+        margin-bottom: 8px;
+    }
+}
+
+@media (max-width: 576px) {
+    .personal_fields,
+    .personal_text {
+        font-size: 12px;
+    }
+
+    .personal_info {
+        margin-top: 10px;
+    }
+}

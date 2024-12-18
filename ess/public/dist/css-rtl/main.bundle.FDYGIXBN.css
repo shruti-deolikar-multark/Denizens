@@ -1,0 +1,78 @@
+/* ../../../../../../tmp/tmp-32871-3ov4HGWHiATX/ess/ess/public/css/main.bundle.css */
+.title-text {
+  font-family: "Roboto";
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 37.5px;
+  text-align: right;
+  color: #000000;
+}
+.btn.btn-primary {
+  background-color: #C52083;
+  border-radius: 50px;
+}
+.form-tabs-list .form-tabs .nav-item .nav-link.active {
+  border-bottom: 1px solid #C52083 !important;
+}
+.standard-actions {
+  align-items: center;
+  justify-content: center;
+}
+.awesomplete .input-with-feedback,
+.input-with-feedback {
+  border-radius: 24px;
+  color: #B2B2B2;
+}
+.input-with-feedback:focus {
+  box-shadow: 0 0 0 1px #C52083;
+}
+.editable-title .flex {
+  align-items: center;
+}
+.reqd {
+  color: #000000;
+}
+.add-attachment-btn {
+  background-color: #C52083 !important;
+  border-radius: 50px;
+}
+.add-attachment-btn .ellipsis {
+  color: #ffffff;
+  font-weight: 600;
+}
+.add-attachment-btn .icon {
+  stroke: #ffffff;
+  font-weight: 600;
+}
+.share-doc-btn .icon {
+  stroke: #ffffff;
+  font-weight: 600;
+}
+.share-doc-btn,
+.add-assignment-btn {
+  background-color: #C52083 !important;
+}
+.add-assignment-btn .icon {
+  stroke: #ffffff;
+  font-weight: 600;
+}
+.sidebar-toggle-placeholder .icon {
+  stroke: #ffffff;
+}
+.btn-default {
+  background-color: #C52083 !important;
+  color: #ffffff !important;
+  font-weight: 600;
+}
+.btn {
+  padding: 10px 20px;
+  border-radius: 24px;
+}
+.btn-default .icon {
+  stroke: #ffffff;
+  font-weight: 600;
+}
+.profile-info-card1 {
+  padding-top: 5%;
+}
+/*# sourceMappingURL=main.bundle.FDYGIXBN.css.map */

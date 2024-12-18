@@ -1,0 +1,18 @@
+{
+ "content": null,
+ "creation": "2024-11-27 16:12:13.535954",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2024-11-27 16:12:13.535954",
+ "modified_by": "Administrator",
+ "module": "Employee Self Service Portal",
+ "name": "ess_employee_list",
+ "owner": "Administrator",
+ "page_name": "ess_employee_list",
+ "roles": [],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0
+}

@@ -1,0 +1,62 @@
+<body>
+  <button class="add-employee-btn" onclick="openEmployeeForm()">Add Employees</button>
+
+  <!-- Card Section -->
+  <div class="cards-section">
+    <div class="card">
+      <img src="/files/fluent_people-team-24-regular.png" alt="Icon">
+      <div class="card-content">
+        <h3 style="color:#C52083" id="expiry_count_60_days">0</h3>
+        <p>COS to be expired in 60 days</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="/files/fluent_people-team-24-regular(1).png" alt="Icon">
+      <div class="card-content">
+        <h3 style="color:#452A7C" id="missing_contact_count">0</h3>
+        <p>Employee missing details</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="/files/fluent_people-team-24-regular.png" alt="Icon">
+      <div class="card-content">
+        <h3 style="color:#C52083" id="employee_exit_count_year">0</h3>
+        <p>Number of employees ceased</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="/files/fluent_people-team-24-regular(1).png" alt="Icon">
+      <div class="card-content">
+        <h3 id="employee_count" style="color:#452A7C">0</h3>
+        <p>Total Active Employees</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <div class="list-section">
+    <div class="list-header">
+      <div class="list-item active" onclick="shiftUnderline(this)">ALL</div>
+      <div class="list-item" onclick="shiftUnderline(this)">PENDING</div>
+      <div class="list-item" onclick="shiftUnderline(this)">ARCHIVE</div>
+      <div class="list-item" onclick="shiftUnderline(this)">SPONSORED</div>
+    </div>
+    <div class="underline"></div>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Organization</th>
+        <th>Branch</th>
+        <th>Missing Details</th>
+        <th>Actions</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+  </table>
+</body>
